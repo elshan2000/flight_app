@@ -1,5 +1,5 @@
 # flight_app
-## to run the project:
+to run the project:
 ```
 docker login
 docker compose up -d
