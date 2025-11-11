@@ -1,0 +1,11 @@
+services:
+  flight_checker:
+    image: elshan2000/flight_checker_bot:latest
+    user: root  
+    container_name: flight_checker_bot
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+     - ./app:/app
+
